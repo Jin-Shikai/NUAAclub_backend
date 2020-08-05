@@ -1,0 +1,167 @@
+GET http://localhost:8080/getUserOfLogin
+token: c31c8643-4d7b-45d0-8c51-34dcb7aebbaa
+
+<> 2020-04-30T073108.404.html
+
+###
+
+GET http://localhost:8080/getUserOfLogin
+token: c31c8643-4d7b-45d0-8c51-34dcb7aebbaa
+
+<> 2020-04-30T073107.404.html
+
+###
+
+GET http://localhost:8080/getUserOfLogin
+token: c31c8643-4d7b-45d0-8c51-34dcb7aebbaa
+
+<> 2020-04-30T072930.404.html
+
+###
+
+GET http://localhost:8080/getUserOfLogin
+token: c31c8643-4d7b-45d0-8c51-34dcb7aebbaa
+
+<> 2020-04-30T072904.404.html
+
+###
+
+GET http://localhost:8080/getUserOfLogin
+token: c31c8643-4d7b-45d0-8c51-34dcb7aebbaa
+
+<> 2020-04-30T072813.404.html
+
+###
+
+GET http://localhost:8080/getUserOfLogin
+token: c31c8643-4d7b-45d0-8c51-34dcb7aebbaa
+
+<> 2020-04-30T072743.404.html
+
+###
+
+POST http://localhost:8080/getUserOfLogin
+token: c31c8643-4d7b-45d0-8c51-34dcb7aebbaa
+
+<> 2020-04-30T072408.404.html
+
+###
+
+GET http://localhost:8080/getUserOfLogin
+token: c31c8643-4d7b-45d0-8c51-34dcb7aebbaa
+
+<> 2020-04-30T072349.404.html
+
+###
+
+GET http://localhost:8080/getUserOfLogin
+token: 9d19662a-ead8-48ce-8492-092ca7820e5f
+
+<> 2020-04-30T072257.404.html
+
+###
+
+GET http://localhost:8080/getUserOfLogin
+token: 9d19662a-ead8-48ce-8492-092ca7820e5f
+
+<> 2020-04-30T072104.404.html
+
+###
+
+GET http://localhost:8080/getUserOfLogin
+token: 9d19662a-ead8-48ce-8492-092ca7820e5f
+
+<> 2020-04-30T071815.404.html
+
+###
+
+GET http://localhost:8080/getUserOfLogin
+token: 9d19662a-ead8-48ce-8492-092ca7820e5f
+
+<> 2020-04-30T071659.404.html
+
+###
+
+GET http://localhost:8080/getUserOfLogin
+Cache-Control: no-cache
+token: 9d19662a-ead8-48ce-8492-092ca7820e5f
+
+<> 2020-04-30T071513.404.html
+
+###
+
+GET http://localhost:8080/LoginDemo
+Cache-Control: no-cache
+token: 9d19662a-ead8-48ce-8492-092ca7820e5f
+
+<> 2020-04-30T071502.200.html
+
+###
+
+POST http://localhost:8080/LoginDemo/LoginServlet?phone=12345&password=12345
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/LoginDemo
+Cache-Control: no-cache
+token: 9d19662a-ead8-48ce-8492-092ca7820e5f
+
+###
+
+POST http://localhost:8080/LoginDemo/LoginServlet?phone=12345&password=12345
+Cache-Control: no-cache
+
+<> 2020-04-30T071018.200.html
+
+###
+
+POST http://localhost:8080/LoginDemo/LoginServlet?phone=12345&password=12345
+Cache-Control: no-cache
+
+<> 2020-04-30T071001.200.html
+
+###
+
+POST http://localhost:8080/LoginDemo/LoginServlet?phone=12345&password=123346
+Cache-Control: no-cache
+
+<> 2020-04-30T070945.200.html
+
+###
+
+POST http://localhost:8080/LoginDemo/LoginServlet?phone=12345&password=123346
+Cache-Control: no-cache
+
+<> 2020-04-30T064117.200.html
+
+###
+
+POST http://localhost:8080/LoginDemo/LoginServlet?phone=12345&password=123345
+Cache-Control: no-cache
+
+<> 2020-04-30T064054.200.html
+
+###
+
+POST http://localhost:8080/LoginDemo/LoginServlet?phone=12345&password=123345
+Cache-Control: no-cache
+
+<> 2020-04-30T063357.200.html
+
+###
+
+POST http://localhost:8080/LoginDemo/LoginServlet?phone=123&password=123345
+Cache-Control: no-cache
+
+<> 2020-04-30T063343.200.html
+
+###
+
+POST http://localhost:8080/LoginDemo/LoginServlet?phone=123&password=123
+Cache-Control: no-cache
+
+<> 2020-04-30T063333.200.html
+
+###
+
