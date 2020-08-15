@@ -1,7 +1,12 @@
 package domain;
 
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+
 
 public class essay
 {
@@ -25,16 +30,34 @@ public class essay
     //9.回复列表
     private List<reply> replyList;
 
-    public essay(String creator,String replycount,String text, String essayid,String createdate)
-    {
-        this.createDate=createdate;
-        this.creator=creator;
-        this.replyCount=replycount;
-        this.text=text;
-        this.essayID=essayid;
-        this.replyList=new ArrayList<reply>();
-    }
+    //10.创建时间(datetime)
+    private java.sql.Timestamp createDate_New;
 
+    public essay(String creator,
+                 String replycount,
+                 String text,
+                 String essayid,
+                 String createdate)
+    {
+        this.createDate = createdate;
+        this.creator = creator;
+        this.replyCount = replycount;
+        this.text = text;
+        this.essayID = essayid;
+        this.replyList = new ArrayList<reply>();
+        this.createDate_New = new java.sql.Timestamp(0);
+
+        try{
+
+            SimpleDateFormat bartDateFormat =   new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+            java.util.Date date_temp = bartDateFormat.parse(createDate);
+            java.sql.Timestamp createDate_New = new java.sql.Timestamp(date_temp.getTime());
+            this.createDate_New = createDate_New;
+        }
+        catch (Exception ex) {
+            System.out.println(ex.getMessage());
+        }
+    }
     public essay()
     {
 
@@ -129,4 +152,16 @@ public class essay
     {
         this.essayID = essayID;
     }
+
+
+    public java.sql.Timestamp getCreateDate_New()
+    {
+        return createDate_New;
+    }
+
+    public void setCreateDate_New(java.sql.Timestamp CreateDate_New)
+    {
+        this.createDate_New = CreateDate_New;
+    }
+
 }

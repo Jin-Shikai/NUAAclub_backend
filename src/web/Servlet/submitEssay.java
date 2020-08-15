@@ -13,6 +13,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.lang.reflect.InvocationTargetException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -45,8 +48,12 @@ public class submitEssay extends HttpServlet
         //3.装填需要写入数据库的map
         Map<String,String> essay = new HashMap<String,String>();
         //4.装填需要写入文件的map
-        //essay(String creator,String replycount,String text, String essayid,String createdate)
-        essay essForFile = new essay(creator,"0",text,essayID,createDate);
+        essay essForFile = new essay(
+                                    creator,
+                            "0",
+                                    text,
+                            essayID,
+                            createDate);
         essay.put("text",text);
 
         essay.put("createDate",createDate);
@@ -67,6 +74,7 @@ public class submitEssay extends HttpServlet
         try
         {
             BeanUtils.populate(ess,essay);
+            ess.setCreateDate_New(essForFile.getCreateDate_New());
             essayDao ed =new essayDao();
             ed.saveEssay(ess);
         } catch (IllegalAccessException e)
