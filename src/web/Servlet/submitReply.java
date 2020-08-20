@@ -49,6 +49,7 @@ public class submitReply extends HttpServlet
         String path= getServletContext().getRealPath("/essay/");
         File file = new File(path,essayID+".json");
 
+        //设置参数
         String content= FileUtils.readFileToString(file,"UTF-8");
         try
         {

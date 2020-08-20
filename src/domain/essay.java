@@ -1,10 +1,9 @@
 package domain;
 
 
-import java.text.ParseException;
+import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 
@@ -32,6 +31,18 @@ public class essay
 
     //10.创建时间(datetime)
     private java.sql.Timestamp createDate_New;
+    //11.最后更新时间(datetime)
+    private java.sql.Timestamp latestDate_New;
+
+    public Timestamp getLatestDate_New()
+    {
+        return latestDate_New;
+    }
+
+    public void setLatestDate_New(Timestamp latestDate_New)
+    {
+        this.latestDate_New = latestDate_New;
+    }
 
     public essay(String creator,
                  String replycount,
@@ -53,6 +64,7 @@ public class essay
             java.util.Date date_temp = bartDateFormat.parse(createDate);
             java.sql.Timestamp createDate_New = new java.sql.Timestamp(date_temp.getTime());
             this.createDate_New = createDate_New;
+            this.latestDate_New = createDate_New;
         }
         catch (Exception ex) {
             System.out.println(ex.getMessage());
