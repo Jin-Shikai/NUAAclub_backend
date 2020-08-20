@@ -13,9 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.lang.reflect.InvocationTargetException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.sql.Timestamp;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -38,8 +36,8 @@ public class submitEssay extends HttpServlet
         Map m = request.getParameterMap();
         //2.初始化essay对象所需数据
         String text =((String[])m.get("text"))[0].toString();
-        String createDate =((String[])m.get("createDate"))[0].toString();
-        String latestDate =((String[])m.get("latestDate"))[0].toString();
+        String createDate =((String[])m.get("createDate_New"))[0].toString();
+        String latestDate =((String[])m.get("latestDate_New"))[0].toString();
         String userID =((String[])m.get("userID"))[0].toString();
         String creator =((String[])m.get("creator"))[0].toString();
         String essayID =((String[])m.get("essayID"))[0].toString();
@@ -75,6 +73,7 @@ public class submitEssay extends HttpServlet
         {
             BeanUtils.populate(ess,essay);
             ess.setCreateDate_New(essForFile.getCreateDate_New());
+            ess.setLatestDate_New(essForFile.getLatestDate_New());
             essayDao ed =new essayDao();
             ed.saveEssay(ess);
         } catch (IllegalAccessException e)
