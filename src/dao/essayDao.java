@@ -81,7 +81,7 @@ public class essayDao
             SimpleDateFormat bartDateFormat =   new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             java.util.Date date_temp = bartDateFormat.parse(createDate);
             java.sql.Timestamp createDate_New = new java.sql.Timestamp(date_temp.getTime());
-            String sql = "UPDATE essay SET latestDate = ? WHERE essayID = ?;";
+            String sql = "UPDATE essay SET latestDate_New = ? WHERE essayID = ?;";
             Object[] obj = new Object[]{createDate_New, essayID};
             template.update(sql, obj);
         }
