@@ -1,6 +1,8 @@
 package domain;
 
 import java.util.ArrayList;
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
 
 public class reply
 {
@@ -18,7 +20,6 @@ public class reply
     private String commentCount;
     //评论列表:
     private ArrayList<comment> commentList;
-
 
     public String getCommentCount()
     {
