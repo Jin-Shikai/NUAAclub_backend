@@ -1,12 +1,8 @@
 package web.Servlet;
 
 
-import com.google.gson.Gson;
-import com.google.gson.JsonObject;
 import dao.essayDao;
-import domain.comment;
 import org.apache.commons.io.FileUtils;
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -16,8 +12,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Map;
 
 @WebServlet("/submitReplyServlet")
@@ -62,9 +56,6 @@ public class submitReply extends HttpServlet
             thisReplay.put("userID",userID);
             thisReplay.put("creator",creator);
             thisReplay.put("text",text);
-            thisReplay.put("commentCount","0");
-            //初始化该reply的commentList
-            thisReplay.put("commentList", new ArrayList<comment>());
             //将thisReply累积到回复数组中
             essayJson.accumulate("replyList",thisReplay);
 

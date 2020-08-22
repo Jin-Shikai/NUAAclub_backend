@@ -16,30 +16,6 @@ public class reply
     private String creator;
     //文本内容
     private String text;
-    //回复数:
-    private String commentCount;
-    //评论列表:
-    private ArrayList<comment> commentList;
-
-    public String getCommentCount()
-    {
-        return commentCount;
-    }
-
-    public void setCommentCount(String commentCount)
-    {
-        this.commentCount = commentCount;
-    }
-
-    public ArrayList<comment> getCommentList()
-    {
-        return commentList;
-    }
-
-    public void setCommentList(ArrayList<comment> commentList)
-    {
-        this.commentList = commentList;
-    }
 
     public String getReplyID()
     {
@@ -91,13 +67,4 @@ public class reply
         this.text = text;
     }
 
-    public String getReplyCount()
-    {
-        return commentCount;
-    }
-
-    public void setReplyCount(String replyCount)
-    {
-        this.commentCount = replyCount;
-    }
 }
