@@ -16,6 +16,18 @@ public class reply
     private String creator;
     //文本内容
     private String text;
+    //楼号
+    private int floor;
+
+    public int getFloor()
+    {
+        return floor;
+    }
+
+    public void setFloor(int floor)
+    {
+        this.floor = floor;
+    }
 
     public String getReplyID()
     {

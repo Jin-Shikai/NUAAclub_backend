@@ -56,6 +56,7 @@ public class submitReply extends HttpServlet
             thisReplay.put("userID",userID);
             thisReplay.put("creator",creator);
             thisReplay.put("text",text);
+            thisReplay.put("floor",(Integer.parseInt(essayJson.get("replyCount").toString()))+1);
             //将thisReply累积到回复数组中
             essayJson.accumulate("replyList",thisReplay);
 
