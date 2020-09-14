@@ -56,6 +56,21 @@ public class essayDao
         }
     }
 
+    public List<String> myEssay(String userID)
+    {
+        String sql = "SELECT essayID FROM essay where userID = "+userID+";";
+        List<String> data = template.query(sql,
+                new RowMapper<String>()
+                {
+                    public String mapRow(ResultSet rs, int rowNum) throws SQLException
+                    {
+                        return rs.getString("essayID");
+                    }
+                },
+                null);
+        return data;
+    }
+
     //按最新更新时间排序  获取前_条贴文
     public List<String> orderList()
     {
