@@ -92,7 +92,7 @@ public class userDao
                     LoginUser.getID(), LoginUser.getPassword());
         } catch (DataAccessException e)
         {
-            e.printStackTrace();
+            System.out.println("查无此人");
             return null;
         }
         return user;

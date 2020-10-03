@@ -1,6 +1,5 @@
 package domain;
 
-
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -12,6 +11,7 @@ public class essay
 
     //*1.创建时间的字符串:
     private String createDate;
+
     //*2.最近修改时间的字符串:
     private String latestDate;
     //*3.创建者ID:

@@ -2,6 +2,8 @@ package web.Servlet;
 
 
 import dao.essayDao;
+import domain.BaseReply;
+import domain.reply;
 import org.apache.commons.io.FileUtils;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -12,6 +14,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
+import java.util.ArrayList;
 import java.util.Map;
 
 @WebServlet("/submitReplyServlet")
@@ -50,15 +53,16 @@ public class submitReply extends HttpServlet
             //得到文件的json对象essayJson
             JSONObject essayJson=new JSONObject(content);
             //需要添加的回复的信息用map初始化一个json对象
-            JSONObject thisReplay = new JSONObject();
-            thisReplay.put("replyStatus","1");
-            thisReplay.put("createDate",createDate);
-            thisReplay.put("userID",userID);
-            thisReplay.put("creator",creator);
-            thisReplay.put("text",text);
-            thisReplay.put("floor",(Integer.parseInt(essayJson.get("replyCount").toString()))+1);
+            JSONObject thisReply = new JSONObject();
+            thisReply.put("replyStatus","1");
+            thisReply.put("createDate",createDate);
+            thisReply.put("userID",userID);
+            thisReply.put("creator",creator);
+            thisReply.put("text",text);
+            thisReply.put("floor",(Integer.parseInt(essayJson.get("replyCount").toString()))+1);
+            thisReply.put("BaseReplyList",new ArrayList<BaseReply>());
             //将thisReply累积到回复数组中
-            essayJson.accumulate("replyList",thisReplay);
+            essayJson.accumulate("replyList",thisReply);
 
             //将回复数置++
             essayJson.put("replyCount",Integer.parseInt(essayJson.get("replyCount").toString())+1);

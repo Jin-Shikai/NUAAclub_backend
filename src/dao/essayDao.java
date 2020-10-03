@@ -56,6 +56,7 @@ public class essayDao
         }
     }
 
+    //我的贴文列表
     public List<String> myEssay(String userID)
     {
         String sql = "SELECT essayID FROM essay where userID = "+userID+";";
