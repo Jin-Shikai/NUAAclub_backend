@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="LoginDemo:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/LoginDemo_war</output-path>
+    <root id="archive" name="LoginDemo_war.war">
+      <element id="artifact" artifact-name="LoginDemo:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+    </root>
+  </artifact>
+</component>

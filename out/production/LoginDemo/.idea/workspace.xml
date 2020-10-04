@@ -2,79 +2,26 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="CssDemo:war exploded" />
+      <artifact name="CssDemo:war exploded2" />
+      <artifact name="JSP:war exploded" />
       <artifact name="LoginDemo:war exploded" />
+      <artifact name="case:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96e50708-efb3-4c58-9f3f-b37951bdd185" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/BaseReply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/Servlet/submitBaseReply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/LoginDemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/LoginDemo_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/.idea/artifacts/LoginDemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/.idea/artifacts/LoginDemo_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/LoginDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/LoginDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/META-INF/LoginDemo.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/META-INF/LoginDemo.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/dao/essayDao$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/dao/essayDao$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/dao/essayDao$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/dao/essayDao$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/dao/essayDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/dao/essayDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/dao/userDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/dao/userDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/domain/essay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/domain/essay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/domain/reply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/domain/reply.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/domain/token.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/domain/token.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/domain/user.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/domain/user.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/util/JdbcUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/util/JdbcUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Filter/loginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Filter/loginFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/failServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/failServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/getUserOfLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/getUserOfLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/myEssayListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/myEssayListServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/newEssayServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/newEssayServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/requestListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/requestListServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/submitEssay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/submitEssay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/submitReply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/submitReply.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/successServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/successServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/245544_2020-09-13.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/27a157_2020-09-14.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/src/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/.idea/artifacts/LoginDemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/.idea/artifacts/LoginDemo_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/LoginDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/LoginDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/META-INF/LoginDemo.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/META-INF/LoginDemo.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/dao/essayDao$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/dao/essayDao$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/dao/essayDao$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/dao/essayDao$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/dao/essayDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/dao/essayDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/dao/userDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/dao/userDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/domain/essay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/domain/essay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/domain/reply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/domain/reply.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/domain/token.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/domain/token.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/domain/user.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/domain/user.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/util/JdbcUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/util/JdbcUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/web/Filter/loginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/web/Filter/loginFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/failServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/failServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/getUserOfLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/getUserOfLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/myEssayListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/myEssayListServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/newEssayServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/newEssayServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/requestListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/requestListServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/submitEssay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/submitEssay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/submitReply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/submitReply.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/successServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/successServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/essayDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/essayDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/userDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/userDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/essay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/essay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/reply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/reply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/src/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,8 +80,8 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/Test" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -693,7 +640,8 @@
       <workItem from="1600006390739" duration="8365000" />
       <workItem from="1600089552153" duration="1607000" />
       <workItem from="1601642772905" duration="2924000" />
-      <workItem from="1601689308055" duration="4715000" />
+      <workItem from="1601689308055" duration="13619000" />
+      <workItem from="1601774673387" duration="1235000" />
     </task>
     <servers />
   </component>
@@ -827,15 +775,6 @@
     <state x="449" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1600089745007" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/web/Servlet/successServlet.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
         <watch expression="essForFile" language="JAVA" />
@@ -846,6 +785,10 @@
         <watch expression="m" language="JAVA" />
         <watch expression="str" language="JAVA" />
         <watch expression="sb" language="JAVA" />
+        <watch expression="essayJson.getJSONObject(&quot;BaseReplyList&quot;)" language="JAVA" />
+        <watch expression="essayJson.getJSONArray(&quot;BaseReplyList&quot;)" language="JAVA" />
+        <watch expression="essayJson.getJSONArray(&quot;replyList&quot;).get(floor)" language="JAVA" />
+        <watch expression="essayJson" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
