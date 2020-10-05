@@ -31,7 +31,6 @@ public class LoginServlet extends HttpServlet
         try
         {
             BeanUtils.populate(loginUser,parameterMap);
-
         } catch (IllegalAccessException e)
         {
             e.printStackTrace();
@@ -43,17 +42,9 @@ public class LoginServlet extends HttpServlet
         //用login方法检测:
         userDao userDao= new userDao();
         user user = userDao.login(loginUser);
-        if(user==null)//用户名不存在或用户名密码不匹配
-        {
-            //登录失败:转发到对应页面
-            request.getRequestDispatcher("/failServlet").forward(request,response);
-        }
-        else
-        {
-            //登录成功:先存储数据,再转发
-            request.setAttribute("user",user);
-            request.getSession().setAttribute("user",user);
-            request.getRequestDispatcher("/successServlet").forward(request,response);
-        }
+        //登录成功:先存储数据,再转发
+        request.setAttribute("user",user);
+        request.getSession().setAttribute("user",user);
+        request.getRequestDispatcher("/successServlet").forward(request,response);
     }
 }

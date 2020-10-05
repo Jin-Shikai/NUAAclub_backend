@@ -2,26 +2,32 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="CssDemo:war exploded" />
-      <artifact name="CssDemo:war exploded2" />
-      <artifact name="JSP:war exploded" />
       <artifact name="LoginDemo:war exploded" />
-      <artifact name="case:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96e50708-efb3-4c58-9f3f-b37951bdd185" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/LoginDemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/LoginDemo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/messageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/Servlet/submitMessageServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/.idea/artifacts/LoginDemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/.idea/artifacts/LoginDemo_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war/LoginDemo_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war/LoginDemo_war.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/dao/userDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/dao/userDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/druid.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/src/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/.idea/artifacts/LoginDemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/.idea/artifacts/LoginDemo_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/21913d_2020-10-03.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/24954d_2020-10-03.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/25961d_2020-10-03.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/dao/userDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/dao/userDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/druid.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/src/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/userDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/userDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/Servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/Servlet/LoginServlet.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,11 +96,11 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="web.Servlet" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaEE\LoginDemo\web\WEB-INF\lib" />
@@ -641,7 +647,10 @@
       <workItem from="1600089552153" duration="1607000" />
       <workItem from="1601642772905" duration="2924000" />
       <workItem from="1601689308055" duration="13619000" />
-      <workItem from="1601774673387" duration="1235000" />
+      <workItem from="1601774673387" duration="3121000" />
+      <workItem from="1601817441843" duration="594000" />
+      <workItem from="1601823287607" duration="58000" />
+      <workItem from="1601823485069" duration="8092000" />
     </task>
     <servers />
   </component>

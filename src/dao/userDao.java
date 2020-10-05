@@ -28,7 +28,7 @@ public class userDao
         try
         {
             String sql= "INSERT INTO user(ID,password,status) VALUES(?,?,?)";
-            Object[] obj = new Object[]{RegistUer.getID(),RegistUer.getPassword(),2};
+            Object[] obj = new Object[]{RegistUer.getID(),"0",2};
             template.update(sql,obj);
         } catch (Exception e)
         {
@@ -82,18 +82,6 @@ public class userDao
         if(user==null)//用户尚不存在
         {
             user = regist(LoginUser);
-        }
-        else try//如果用户存在, 再检查一遍ID和密码是否匹配
-        {
-            String sql;
-            sql = "select * from user where ID = ? and password = ?";
-            user = template.queryForObject(sql,
-                    new BeanPropertyRowMapper<user>(user.class),
-                    LoginUser.getID(), LoginUser.getPassword());
-        } catch (DataAccessException e)
-        {
-            System.out.println("查无此人");
-            return null;
         }
         return user;
     }
