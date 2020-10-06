@@ -7,27 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96e50708-efb3-4c58-9f3f-b37951bdd185" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dao/messageDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/Servlet/submitMessageServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war/LoginDemo_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war/LoginDemo_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/dao/userDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/dao/userDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/src/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/21913d_2020-10-03.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/24954d_2020-10-03.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/25961d_2020-10-03.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/dao/userDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/dao/userDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/src/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/userDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/userDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/Servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/Servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/dao/messageDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/dao/messageDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/domain/message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/domain/message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/submitMessageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/submitMessageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/message/21153a_28112a2020-10-05.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/message/22160a_28112a2020-10-05.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/message/28162a_28112a2020-10-05.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/dao/messageDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/dao/messageDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/domain/message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/domain/message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/submitMessageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/submitMessageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/messageDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/messageDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/Servlet/submitMessageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/Servlet/submitMessageServlet.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +53,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -86,11 +80,11 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/Test" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="last_opened_file_path" value="E:/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -650,7 +644,7 @@
       <workItem from="1601774673387" duration="3121000" />
       <workItem from="1601817441843" duration="594000" />
       <workItem from="1601823287607" duration="58000" />
-      <workItem from="1601823485069" duration="8092000" />
+      <workItem from="1601823485069" duration="18062000" />
     </task>
     <servers />
   </component>
@@ -786,18 +780,8 @@
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
-        <watch expression="essForFile" language="JAVA" />
-        <watch expression="ess" language="JAVA" />
-        <watch expression="userID" language="JAVA" custom="com.sun.imageio.plugins.png.IDATOutputStream" />
-        <watch expression="req" language="JAVA" />
-        <watch expression="req.getParameterMap()" language="JAVA" />
-        <watch expression="m" language="JAVA" />
+        <watch expression="essayJson.getJSONArray(&quot;replyList&quot;).get(floor-1)" language="JAVA" />
         <watch expression="str" language="JAVA" />
-        <watch expression="sb" language="JAVA" />
-        <watch expression="essayJson.getJSONObject(&quot;BaseReplyList&quot;)" language="JAVA" />
-        <watch expression="essayJson.getJSONArray(&quot;BaseReplyList&quot;)" language="JAVA" />
-        <watch expression="essayJson.getJSONArray(&quot;replyList&quot;).get(floor)" language="JAVA" />
-        <watch expression="essayJson" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

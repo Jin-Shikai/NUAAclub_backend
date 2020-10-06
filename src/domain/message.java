@@ -1,7 +1,9 @@
 package domain;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.PriorityQueue;
 
 public class message
 {
@@ -55,14 +57,14 @@ public class message
         this.text = text;
     }
 
-    public String getMessageID()
+    public String getFileName()
     {
-        return messageID;
+        return fileName;
     }
 
-    public void setMessageID(String messageID)
+    public void setFileName(String fileName)
     {
-        this.messageID = messageID;
+        this.fileName = fileName;
     }
 
     public int getStatus()
@@ -73,6 +75,16 @@ public class message
     public void setStatus(int status)
     {
         this.status = status;
+    }
+
+    public String getCreateDate()
+    {
+        return createDate;
+    }
+
+    public void setCreateDate(String createDate)
+    {
+        this.createDate = createDate;
     }
 
     public List<BaseReply> getReplyList()
@@ -90,20 +102,24 @@ public class message
     private String fromCreator;
     private String toCreator;
     private String text;
-    private String messageID;
+    private String fileName;
     private int status;
+    private String  createDate;
+    private int replyCnt;
     //每条reply有自己的回复列表
     private List<BaseReply> replyList;
 
-    public message(String fromID, String toID, String fromCreator, String toCreator, String text, String messageID)
+    public message(String fromID, String toID, String fromCreator, String toCreator, String text, String fileName, String createDateStr)
     {
         this.fromID = fromID;
         this.toID = toID;
         this.fromCreator = fromCreator;
         this.toCreator = toCreator;
         this.text = text;
-        this.messageID = messageID;
+        this.fileName = fileName;
         this.status = 2;
+        this.createDate = createDateStr;
+        this.replyCnt = 0;
         replyList = new ArrayList<BaseReply>();
     }
 }

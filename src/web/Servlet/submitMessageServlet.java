@@ -28,21 +28,22 @@ public class submitMessageServlet extends HttpServlet
         request.setCharacterEncoding("UTF-8");
 
         Map<String, String[]> parameterMap = request.getParameterMap();
-        String fromID =((String[])parameterMap.get("fromID"))[0].toString();
-        String toID =((String[])parameterMap.get("toID"))[0].toString();
-        String fromCreator =((String[])parameterMap.get("fromCreator"))[0].toString();
-        String toCreator =((String[])parameterMap.get("toCreator"))[0].toString();
-        String messageID =((String[])parameterMap.get("messageID"))[0].toString();
-        String text =((String[])parameterMap.get("text"))[0].toString();
+        String fromID =((String[])parameterMap.get("fromID"))[0];
+        String toID =((String[])parameterMap.get("toID"))[0];
+        String fromCreator =((String[])parameterMap.get("fromCreator"))[0];
+        String toCreator =((String[])parameterMap.get("toCreator"))[0];
+        String fileName =((String[])parameterMap.get("fileName"))[0];
+        String text =((String[])parameterMap.get("text"))[0];
+        String createDate = parameterMap.get("createDate")[0];
+        String createDate_New = parameterMap.get("createDate_New")[0];
 
+        message msgForFile = new message(fromID,toID,fromCreator,toCreator,text,fileName, createDate);
 
-        message msgForFile = new message(fromID,toID,fromCreator,toCreator,text,messageID);
-
-        //按帖子ID找到帖子文件,得到JSON对象
-        // 获取essay库资源目录
+        //按filename找到帖子文件,得到JSON对象
+        // 获取message库资源目录
         String path = getServletContext().getRealPath("/message/");
         //设置文件
-        File msgfile = new File(path,messageID+".json");
+        File msgfile = new File(path,fileName+".json");
         //1. 创建文件
         msgfile.createNewFile();
         Writer write = null;
