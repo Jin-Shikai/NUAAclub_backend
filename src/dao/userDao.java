@@ -102,4 +102,17 @@ public class userDao
         }
     }
 
+    public void updatePassword(String ID, String newPassword)
+    {
+        try
+        {
+            //"INSERT INTO token(tokenID,ID) VALUES(?,?)";
+            String sql= "UPDATE USER SET PASSWORD = ? WHERE ID = ?";
+            Object[] obj = new Object[]{newPassword,ID};
+            template.update(sql,obj);
+        } catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
 }
