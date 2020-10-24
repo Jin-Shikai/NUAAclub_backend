@@ -33,7 +33,7 @@ public class updatePasswordServlet extends HttpServlet
         String ID =((String[])m.get("ID"))[0].toString();
         String newPassword =((String[])m.get("newPassword"))[0].toString();
 
-        //用login方法检测:
+        //在数据库中更新密码
         userDao userDao= new userDao();
         userDao.updatePassword(ID,newPassword);
 

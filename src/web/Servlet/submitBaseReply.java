@@ -60,9 +60,11 @@ public class submitBaseReply extends HttpServlet
             thisBaseReply.put("userID",userID);
             thisBaseReply.put("creator",creator);
             thisBaseReply.put("text",text);
+            int size = Integer.valueOf(essayJson.getJSONArray("replyList").getJSONObject(floor-1).getJSONArray("BaseReplyList").length());
+            thisBaseReply.put("baseFloor",size+1);
             System.out.println(floor);
             ((JSONObject)  essayJson.getJSONArray("replyList").get(floor-1)).accumulate("BaseReplyList", thisBaseReply);
-
+            essayJson.getJSONArray("replyList").getJSONObject(floor-1).put("baseReplyCnt",String.valueOf(size+1));
 //            //将thisReply累积到回复数组中
 //            essayJson.accumulate("replyList",thisBaseReplay);
 //

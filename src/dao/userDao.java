@@ -107,7 +107,7 @@ public class userDao
         try
         {
             //"INSERT INTO token(tokenID,ID) VALUES(?,?)";
-            String sql= "UPDATE USER SET PASSWORD = ? WHERE ID = ?";
+            String sql= "UPDATE user SET password = ? WHERE ID = ?";
             Object[] obj = new Object[]{newPassword,ID};
             template.update(sql,obj);
         } catch (Exception e)

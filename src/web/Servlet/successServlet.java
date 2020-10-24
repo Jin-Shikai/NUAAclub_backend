@@ -29,8 +29,8 @@ public class successServlet extends HttpServlet
             //生成token
             String token = UUID.randomUUID() + "";
             //保存token
-            userDao ud=new userDao();
-            ud.saveToken(token,user.getID());
+            //userDao ud=new userDao();
+            //ud.saveToken(token,user.getID());
             //返回token
             response.getWriter().write(token);
         }

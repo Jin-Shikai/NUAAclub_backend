@@ -9,5 +9,5 @@ public class reply extends BaseReply
 {
     //每条reply有自己的回复列表
     private List<BaseReply> replyList;
-
+    private int baseReplyCnt;
 }

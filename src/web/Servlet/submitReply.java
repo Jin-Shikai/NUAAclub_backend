@@ -59,14 +59,15 @@ public class submitReply extends HttpServlet
             thisReply.put("userID",userID);
             thisReply.put("creator",creator);
             thisReply.put("text",text);
-            thisReply.put("floor",(Integer.parseInt(essayJson.get("replyCount").toString()))+1);
+            int size = essayJson.getJSONArray("replyList").length();
+            thisReply.put("floor",String.valueOf(size+1));
             thisReply.put("BaseReplyList",new ArrayList<BaseReply>());
+            thisReply.put("baseReplyCnt","0");
             //将thisReply累积到回复数组中
             essayJson.accumulate("replyList",thisReply);
 
             //将回复数置++
             essayJson.put("replyCount",Integer.parseInt(essayJson.get("replyCount").toString())+1);
-
 
             Writer write;
             //定义输出流
