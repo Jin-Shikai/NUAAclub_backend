@@ -51,7 +51,8 @@ public class submitEssay extends HttpServlet
                             "0",
                                     text,
                             essayID,
-                            createDate);
+                            createDate,
+                userID);
         essay.put("text",text);
 
         essay.put("createDate",createDate);

@@ -47,7 +47,7 @@ public class deleteReplyServlet extends HttpServlet
         {
             JSONObject essayJson = new JSONObject(content);
             essayJson.getJSONArray("replyList").getJSONObject(Integer.valueOf(floor)-1).put("replyStatus","0");
-            //将回复数置++
+            //将回复数置--
             essayJson.put("replyCount",Integer.parseInt(essayJson.get("replyCount").toString())-1);
 
             Writer write;

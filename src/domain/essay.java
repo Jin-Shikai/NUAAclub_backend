@@ -48,7 +48,8 @@ public class essay
                  String replycount,
                  String text,
                  String essayid,
-                 String createdate)
+                 String createdate,
+                 String userID)
     {
         this.createDate = createdate;
         this.creator = creator;
@@ -57,7 +58,8 @@ public class essay
         this.essayID = essayid;
         this.replyList = new ArrayList<reply>();
         this.createDate_New = new java.sql.Timestamp(0);
-
+        this.status = "1";
+        this.userID = userID;
         try{
 
             SimpleDateFormat bartDateFormat =   new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
