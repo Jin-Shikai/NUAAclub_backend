@@ -56,7 +56,7 @@ public class submitMessageReply extends HttpServlet
             thisBaseReply.put("creator",creator);
             thisBaseReply.put("text",text);
             essayJson.accumulate("replyList", thisBaseReply);
-
+            essayJson.put("replyCnt",Integer.parseInt(essayJson.get("replyCnt").toString())+1);
 //            //将thisReply累积到回复数组中
 //            essayJson.accumulate("replyList",thisBaseReplay);
 //

@@ -2,30 +2,28 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="LoginDemo:war exploded" />
+      <artifact name="LoginDemo:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96e50708-efb3-4c58-9f3f-b37951bdd185" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/deleteEssayServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/20e460_2020-10-25.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/24e640_2020-10-25.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/26e580_2020-10-25.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/28e420_2020-10-25.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/deleteEssayServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/Servlet/deleteEssayServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war/LoginDemo_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war/LoginDemo_war.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war/LoginDemo.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war/LoginDemo.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war/LoginDemo_war.war" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/domain/essay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/domain/essay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/submitEssay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/submitEssay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/20e560_2020-10-24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/src/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/submitMessageReply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/web/Servlet/submitMessageReply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/20e460_2020-10-25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/24e640_2020-10-25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/26e580_2020-10-25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LoginDemo_war_exploded/essay/28e420_2020-10-25.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/domain/essay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/domain/essay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/submitEssay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/submitEssay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/essay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/essay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/Servlet/deleteReplyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/Servlet/deleteReplyServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/Servlet/submitEssay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/Servlet/submitEssay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/src/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/submitMessageReply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoginDemo/web/Servlet/submitMessageReply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/Servlet/submitMessageReply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/Servlet/submitMessageReply.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -489,7 +487,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.50" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.46" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://192.168.1.101:8080/LoginDemo/Login.jsp" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://192.168.1.103:8080/LoginDemo/Login.jsp" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="LoginDemo:war exploded">
@@ -657,6 +655,11 @@
       <workItem from="1603370547800" duration="6071000" />
       <workItem from="1603510047347" duration="8028000" />
       <workItem from="1603614982408" duration="2986000" />
+      <workItem from="1604224871881" duration="656000" />
+      <workItem from="1604384259233" duration="593000" />
+      <workItem from="1604456850877" duration="3904000" />
+      <workItem from="1604546258251" duration="643000" />
+      <workItem from="1604587214937" duration="448000" />
     </task>
     <servers />
   </component>
@@ -790,21 +793,12 @@
     <state x="449" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1600089745007" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/web/Servlet/deleteBaseReplyServlet.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
-        <watch expression="essayJson.getJSONArray(&quot;replyList&quot;).getJSONObject(Integer.valueOf(floor)).getJSONArray(&quot;BaseReplyList&quot;)" language="JAVA" />
-        <watch expression="essayJson.getJSONArray(&quot;replyList&quot;).getJSONObject(Integer.valueOf(floor)).getJSONArray(&quot;BaseReplyList&quot;)                     .getJSONObject(Integer.valueOf(baseFloor)-1)" language="JAVA" />
-        <watch expression="baseFloor" language="JAVA" />
+        <watch expression="essayJson.getJSONArray(&quot;replyList&quot;).getJSONObject(Integer.valueOf(floor))" language="JAVA" />
+        <watch expression="Integer.valueOf(floor)" language="JAVA" />
         <watch expression="floor" language="JAVA" />
+        <watch expression="essayJson.getJSONArray(&quot;replyList&quot;)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
